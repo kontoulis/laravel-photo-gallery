@@ -6,7 +6,7 @@ use JeroenG\LaravelPhotoGallery\Contracts;
 use JeroenG\LaravelPhotoGallery\Traits\Editable;
 use JeroenG\LaravelPhotoGallery\Traits\Mappable;
 
-class Photo implements Contracts\Photo
+class Photo extends Entity implements Contracts\Photo
 {
     use Mappable, Editable;
 
