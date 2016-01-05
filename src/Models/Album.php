@@ -30,7 +30,7 @@ class Album extends Model
      **/
     public function photos()
     {
-    	return $this->hasMany('\JeroenG\LaravelPhotoGallery\Models\Photo');
+    	return $this->hasMany(Photo::class);
     }
 
 }

@@ -26,6 +26,7 @@ class AlbumsController extends Controller
 	 */
 	public function store(Request $request)
 	{
+
 		$this->validate($request, [
 			'album_name' => 'required',
 			'album_description' => 'max:255',
@@ -33,6 +34,7 @@ class AlbumsController extends Controller
 
 		$album = new Entity\Album();
 		$album->map([
+			'user_id' => \Auth::user()->id,
 			'name' => $request->input('album_name'),
 			'description' => $request->input('album_description'),
 			'order' => 0,

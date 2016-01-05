@@ -15,6 +15,7 @@ class PhotosController extends Controller
 	public function create()
 	{
 		$albumArray = \Gallery::album()->all()->toArray();
+		$dropdown = [];
 		foreach ($albumArray as $album) {
 		    $dropdown[$album->getId()] = $album->getName();
 		}
