@@ -20,6 +20,11 @@
             "JeroenG\\LaravelPhotoGallery\\": "src/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "2.0": "2.0-beta"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
