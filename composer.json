@@ -1,10 +1,10 @@
 {
-    "name": "jeroen-g/laravel-photo-gallery",
+    "name": "kontoulis/laravel-photo-gallery",
     "description": "A photo gallery for Laravel",
     "keywords": ["Laravel", "Photo", "Gallery"],
     "license": "EUPL-1.1",
     "authors": [{"name": "Jeroen G", "email": "jeroeng.jeroeng@gmail.com"}],
-    "homepage": "https://github.com/Jeroen-G/laravel-photo-gallery",
+    "homepage": "https://github.com/kontoulis/laravel-photo-gallery",
     "require": {
         "illuminate/support": "~5"
     },
